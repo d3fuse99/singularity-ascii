@@ -1,9 +1,17 @@
 <h1>Singularity ASCII Black Hole</h1>
-<img width="2553" height="1282" alt="image" src="https://github.com/user-attachments/assets/7ee68fc7-305d-4a29-80be-ff0806dbb632" />
+<img width="2553" height="1282" alt="image" src="https://github.com/user-attachments/assets/f6b95c1b-bcc4-44b3-a123-c56334ec1a0b" />
 
 <p>An interactive, full-screen simulator of a Schwarzschild black hole accretion disk with relativistic gravitational lensing, rendered in real-time ASCII/Halftone art.</p>
 
 <p>This project visualizes how the intense gravitational pull of a singularity bends light rays, wrapping the back of the disk around the event horizon to form a symmetrical glowing ring.</p>
+
+<h2>Project Structure</h2>
+
+<ul>
+  <li><strong>index.html</strong> - Minimal HTML setup and canvas container.</li>
+  <li><strong>style.css</strong> - Full-screen layout and page styling.</li>
+  <li><strong>singularity.js</strong> - Main simulation logic and relativistic p5.js code.</li>
+</ul>
 
 <h2>Features</h2>
 
@@ -17,7 +25,7 @@
 
 <h2>How to Run</h2>
 
-<p>Simply download the <strong>index.html</strong> file and open it in any modern web browser. No compilation, local servers, or external installations are required.</p>
+<p>Clone the repository or download all three files (<strong>index.html</strong>, <strong>style.css</strong>, and <strong>singularity.js</strong>) into the same folder, then open <strong>index.html</strong> in any modern web browser. No compilation, local servers, or external installations are required.</p>
 
 <h2>Built With</h2>
 
