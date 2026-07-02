@@ -1,35 +1,40 @@
 <h1>Singularity ASCII Black Hole</h1>
-<img width="2553" height="1282" alt="image" src="https://github.com/user-attachments/assets/66342b1a-b7c8-407e-9170-c7aa4a4e95f6" />
+
+<p align="center">
+<img width="2559" height="1317" alt="image" src="https://github.com/user-attachments/assets/6c61793f-a988-4d01-b895-43b2b99792f2" />
+
+</p>
 
 <p>An interactive, full-screen simulator of a Schwarzschild black hole accretion disk with relativistic gravitational lensing, rendered in real-time ASCII/Halftone art.</p>
 
-<p>This project visualizes how the intense gravitational pull of a singularity bends light rays, wrapping the back of the disk around the event horizon to form a symmetrical glowing ring.</p>
+<p>This project visualizes how the intense gravitational pull of a singularity bends light rays, wrapping the back of the disk around the event horizon to form a symmetrical glowing ring, while incorporating advanced relativistic physics effects.</p>
 
 <h2>Project Structure</h2>
 
 <ul>
   <li><strong>index.html</strong> - Minimal HTML setup and canvas container.</li>
-  <li><strong>style.css</strong> - Full-screen layout and page styling.</li>
-  <li><strong>singularity.js</strong> - Main simulation logic and relativistic p5.js code.</li>
+  <li><strong>style.css</strong> - Full-screen layout with absolute positioning to prevent clipping.</li>
+  <li><strong>singularity.js</strong> - Main simulation logic, Keplerian physics, and relativistic rendering.</li>
   <li><strong>Dockerfile</strong> - Lightweight Nginx container configuration.</li>
   <li><strong>docker-compose.yml</strong> - Single-command run configuration.</li>
 </ul>
 
-<h2>Features</h2>
+<h2>Advanced Physics & Visual Features</h2>
 
 <ul>
   <li><strong>Dual-Image Lensing:</strong> Simulates both primary and secondary lensed images (photon ring) for a highly realistic event horizon visualization.</li>
-  <li><strong>Interactive 3D Orbit:</strong> Drag-to-rotate controls allow you to view and flip the black hole under any angle.</li>
-  <li><strong>Dynamic Scaling (Pulse):</strong> Hold down the mouse button to expand the accretion disk, smoothly returning to normal size on release.</li>
-  <li><strong>Smooth Style Transitions:</strong> Silky cross-fades between halftone circles, classic density ASCII-code, and a green terminal matrix style.</li>
-  <li><strong>Responsive Layout:</strong> The simulation automatically scales to fit any screen resolution or window size.</li>
+  <li><strong>Relativistic Doppler Beaming:</strong> Models the asymmetric brightness of the accretion disk. Plasma orbiting towards the camera appears shifted to bright yellow-white, while plasma moving away dims to deep crimson.</li>
+  <li><strong>Einstein Ring Lensing of Background Stars:</strong> Distant background stars are projected in 3D and dynamically warp into beautiful curved arcs as they pass behind the black hole.</li>
+  <li><strong>Gravitational Wave Ripples:</strong> Clicking inside the canvas triggers a physical sine-wave ripple that propagates outward, distorting the space coordinates of the disk.</li>
+  <li><strong>Dynamic Plasma Turbulence:</strong> Uses multi-frequency Perlin noise to simulate organic plasma swirls, density waves, and rotating magnetic hotspots.</li>
+  <li><strong>Chromatic Aberration:</strong> Transitioning between modes or triggering spasms splits the red and cyan color channels of the ASCII grid for a high-tech glitch effect.</li>
 </ul>
 
 <h2>How to Run with Docker</h2>
 
 <p>You can easily build and run the simulation inside a lightweight Docker container.</p>
 
-<h3>Using Docker Compose</h3>
+<h3>Using Docker Compose (Recommended)</h3>
 
 <ol>
   <li>Run the following command in the project directory:
@@ -56,3 +61,11 @@
     <pre><code>http://localhost:8080</code></pre>
   </li>
 </ol>
+
+<h2>Built With</h2>
+
+<ul>
+  <li>HTML5 / CSS3</li>
+  <li>JavaScript (ES6)</li>
+  <li>p5.js Library</li>
+</ul>
