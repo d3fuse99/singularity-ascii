@@ -1,8 +1,7 @@
 <h1>Singularity ASCII Black Hole</h1>
 
 <p align="center">
-<img width="2559" height="1317" alt="image" src="https://github.com/user-attachments/assets/6c61793f-a988-4d01-b895-43b2b99792f2" />
-
+<img width="2559" height="1317" alt="image" src="https://github.com/user-attachments/assets/f67e1dc0-757c-4f3f-aa98-6cbbf3a28c7a" />
 </p>
 
 <p>An interactive, full-screen simulator of a Schwarzschild black hole accretion disk with relativistic gravitational lensing, rendered in real-time ASCII/Halftone art.</p>
