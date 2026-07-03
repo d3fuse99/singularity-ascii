@@ -1,12 +1,15 @@
-<h1>Singularity ASCII Black Hole</h1>
+<h1>Singularity ASCII & Relativistic Black Hole</h1>
 
 <p align="center">
-<img width="2559" height="1317" alt="image" src="https://github.com/user-attachments/assets/f67e1dc0-757c-4f3f-aa98-6cbbf3a28c7a" />
+<img width="2559" height="1317" alt="image" src="https://github.com/user-attachments/assets/1f395c6d-70e1-455c-a04d-01a2749a122b" />
+
+<img width="2559" height="1313" alt="image" src="https://github.com/user-attachments/assets/1ba292ab-74b7-4050-8ab8-0d4b8f69fa79" />
+
 </p>
 
-<p>An interactive, full-screen simulator of a Schwarzschild black hole accretion disk with relativistic gravitational lensing, rendered in real-time ASCII/Halftone art.</p>
+<p>An interactive, full-screen simulator of a Schwarzschild black hole accretion disk with relativistic gravitational lensing. This project features a hybrid rendering system that allows seamless transitions between high-contrast retro-terminal digital modes and a smooth, volumetric astrophysical plasma simulation.</p>
 
-<p>This project visualizes how the intense gravitational pull of a singularity bends light rays, wrapping the back of the disk around the event horizon to form a symmetrical glowing ring, while incorporating advanced relativistic physics effects.</p>
+<p>It models how the intense gravitational pull of a singularity bends light rays, wrapping the back of the disk around the event horizon to form a symmetrical glowing ring, while incorporating advanced relativistic physics effects.</p>
 
 <h2>Project Structure</h2>
 
@@ -21,6 +24,8 @@
 <h2>Advanced Physics & Visual Features</h2>
 
 <ul>
+  <li><strong>Astrophysical (Photorealistic) Mode:</strong> Generates smooth, volumetric-looking gas particles with additive blending (glow effect), creating a realistic scientific space simulation that transitions seamlessly with the terminal modes.</li>
+  <li><strong>Relativistic Time Dilation:</strong> Matter close to the inner edge of the accretion disk (near the event horizon shadow) dynamically slows down in orbit from the observer's perspective, creating realistic density clustering.</li>
   <li><strong>Dual-Image Lensing:</strong> Simulates both primary and secondary lensed images (photon ring) for a highly realistic event horizon visualization.</li>
   <li><strong>Relativistic Doppler Beaming:</strong> Models the asymmetric brightness of the accretion disk. Plasma orbiting towards the camera appears shifted to bright yellow-white, while plasma moving away dims to deep crimson.</li>
   <li><strong>Einstein Ring Lensing of Background Stars:</strong> Distant background stars are projected in 3D and dynamically warp into beautiful curved arcs as they pass behind the black hole.</li>
